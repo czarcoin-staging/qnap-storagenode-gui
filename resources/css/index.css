@@ -3,3 +3,40 @@
 body {
   font-family: Roboto;
 }
+
+.welcome-container {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.welcome-container .welcome-icon {
+  width: 170px;
+  height: 170px;
+  background: #C4C4C4;
+  border-radius: 136px;
+  margin: 0 auto;
+}
+
+.welcome-container .welcome-title {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 137.66%;
+  margin-top: 30px;
+}
+
+.welcome-container .welcome-msg {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 137.66%;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.welcome-container .welcome-btn {
+  background: #245AC3;
+  border-radius: 2px;
+  color: #FFF;
+  border: none;
+  padding: 10px 20px;
+}

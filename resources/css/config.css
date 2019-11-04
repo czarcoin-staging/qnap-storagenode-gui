@@ -1,0 +1,37 @@
+
+.config-page {
+  margin-top: 40px;
+}
+
+.segment {
+  border: 1px solid #E5E5E5;
+  width: 95%;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.segment .segment-icon {
+  border: 1px solid #245AC3;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin: 10% auto;
+}
+
+.segment .segment-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.segment .segment-msg {
+  font-size: 14px;
+  color: #616161;
+}
+
+.segment .segment-btn {
+  border-color: #245AC3;
+  color: #245AC3;
+  padding: 4px 10px;
+  font-size: 14px;
+}

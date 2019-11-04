@@ -4,6 +4,9 @@
   <title></title>
   <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+  <link href="./resources/css/nav.css" type="text/css" rel="stylesheet">
+  <link href="./resources/css/config.css" type="text/css" rel="stylesheet">
 </head>
 <body>
   <div>
@@ -11,37 +14,61 @@
       <a class="navbar-brand" href="#">Storj</a>
     </nav>
     <div class="row">
-      <div class="col-2">
+      <div class="side-nav col-2">
         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Dashboard</a>
-          <a class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Config</a>
+          <a class="nav-link" id="v-pills-dashboard-tab" data-toggle="pill" href="/dashboard.html" role="tab" aria-controls="v-pills-dashboard" aria-selected="true"><div class="nav-link-icon"></div>Dashboard</a>
+          <a class="nav-link" id="v-pills-config-tab" data-toggle="pill" href="/setup.html" role="tab" aria-controls="v-pills-config" aria-selected="false"><div class="nav-link-icon"></div>Config</a>
         </div>
       </div>
-      <div class="col-10">
+      <div class="col-10 config-page">
         <div class="container-fluid">
-          <div class="row">
-            <div class="column col-md-2"></div>
-            <div class="column col-md-10">Every node ie required to have a unique identifier on the network. If you haven't already, get an authorization token. This is required to create an identity.</div>
+          <div class="row segment">
+            <div class="column col-md-2"><div class="segment-icon"></div></div>
+            <div class="column col-md-10">
+              <h4 class="segment-title">Identity</h4>
+              <p class="segment-msg">Every node ie required to have a unique identifier on the network. If you haven't already, get an authorization token. This is required to create an identity.</p>
+              <button class="segment-btn">Create Identity</button>
+            </div>
           </div>
-          <div class="row">
-            <div class="column col-md-2"></div>
-            <div class="column col-md-10">How a storage node communicates with others on the Storj network, even though it is behind a router. You need a dynamic DNS service to ensure your storage node is connected.</div>
+          <div class="row segment">
+            <div class="column col-md-2"><div class="segment-icon"></div></div>
+            <div class="column col-md-10 segment-content">
+              <h4 class="segment-title">Port Forwarding</h4>
+              <p class="segment-msg">How a storage node communicates with others on the Storj network, even though it is behind a router. You need a dynamic DNS service to ensure your storage node is connected.</p>
+              <button class="segment-btn">Add External Address</button>
+            </div>
           </div>
-          <div class="row">
-            <div class="column col-md-2"></div>
-            <div class="column col-md-10">In order to recieve and hold your STORJ toen payouts, you need an ERC-20 compatible wallet to wwhich you hold the private key yourself.</div>
+          <div class="row segment">
+            <div class="column col-md-2"><div class="segment-icon"></div></div>
+            <div class="column col-md-10 segment-content">
+              <h4 class="segment-title">Ethereum Wallet Address</h4>
+              <p class="segment-msg">In order to recieve and hold your STORJ toen payouts, you need an ERC-20 compatible wallet to wwhich you hold the private key yourself.</p>
+              <button class="segment-btn">Add Wallet Address</button>
+            </div>
           </div>
-          <div class="row">
-            <div class="column col-md-2"></div>
-            <div class="column col-md-10">How much disk space you wnat to allocate to the Storj network</div>
+          <div class="row segment">
+            <div class="column col-md-2"><div class="segment-icon"></div></div>
+            <div class="column col-md-10 segment-content">
+              <h4 class="segment-title">Storage Allocation</h4>
+              <p class="segment-msg">How much disk space you wnat to allocate to the Storj network</p>
+              <button class="segment-btn">Set Storage Capacity</button>
+            </div>
           </div>
-          <div class="row">
-            <div class="column col-md-2"></div>
-            <div class="column col-md-10">How much bandwidth can you allocate to the Storj network.</div>
+          <div class="row segment">
+            <div class="column col-md-2"><div class="segment-icon"></div></div>
+            <div class="column col-md-10 segment-content">
+              <h4 class="segment-title">Bandwidth Allocation</h4>
+              <p class="segment-msg">How much bandwidth can you allocate to the Storj network.</p>
+              <button class="segment-btn">Set Bandwidth Alloc</button>
+            </div>
           </div>
-          <div class="row">
-            <div class="column col-md-2"></div>
-            <div class="column col-md-10">The local directory where you want files to be stored on your hard drive for the network</div>
+          <div class="row segment">
+            <div class="column col-md-2"><div class="segment-icon"></div></div>
+            <div class="column col-md-10 segment-content">
+              <h4 class="segment-title">Storage Directory</h4>
+              <p class="segment-msg">The local directory where you want files to be stored on your hard drive for the network</p>
+              <button class="segment-btn">Set Storage Directory</button>
+            </div>
           </div>
         <div>
       </div>

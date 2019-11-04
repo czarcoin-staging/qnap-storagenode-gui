@@ -41,3 +41,27 @@
   padding: 4px 10px;
   font-size: 14px;
 }
+
+.segment .modal-content {
+  margin-top: 30%;
+}
+
+.segment .modal-input-title {
+  display: inline;
+  margin-right: 20px;
+  color: #6B6B6B;
+  font-size: 14px;
+}
+
+.segment .modal-input {
+  width: 300px;
+}
+
+.segment .modal-btn {
+  border: 1px solid #707070;
+  padding: 5px 10px;
+}
+
+.segment .modal-footer {
+  border-top: none;
+}

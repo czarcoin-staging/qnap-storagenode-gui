@@ -22,12 +22,34 @@
       </div>
       <div class="col-10 config-page">
         <div class="container-fluid">
+          <h2>Config</h2>
           <div class="row segment">
             <div class="column col-md-2"><div class="segment-icon"></div></div>
             <div class="column col-md-10">
               <h4 class="segment-title">Identity</h4>
               <p class="segment-msg">Every node ie required to have a unique identifier on the network. If you haven't already, get an authorization token. This is required to create an identity.</p>
-              <button class="segment-btn">Create Identity</button>
+              <button class="segment-btn" data-toggle="modal" data-target="#identity">
+                Create Identity
+              </button>
+              <div class="modal fade" id="identity" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="identity">Create Identity</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button class="modal-btn" data-dismiss="modal">Close</button>
+                      <button class="modal-btn">Create Identity</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row segment">
@@ -35,6 +57,28 @@
             <div class="column col-md-10 segment-content">
               <h4 class="segment-title">Port Forwarding</h4>
               <p class="segment-msg">How a storage node communicates with others on the Storj network, even though it is behind a router. You need a dynamic DNS service to ensure your storage node is connected.</p>
+              <button class="segment-btn" data-toggle="modal" data-target="#identity">
+                Add External Address
+              </button>
+              <div class="modal fade" id="identity" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="identity">Port Forwarding</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button class="modal-btn" data-dismiss="modal">Close</button>
+                      <button class="modal-btn">Set Address</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <button class="segment-btn">Add External Address</button>
             </div>
           </div>
@@ -43,7 +87,28 @@
             <div class="column col-md-10 segment-content">
               <h4 class="segment-title">Ethereum Wallet Address</h4>
               <p class="segment-msg">In order to recieve and hold your STORJ toen payouts, you need an ERC-20 compatible wallet to wwhich you hold the private key yourself.</p>
-              <button class="segment-btn">Add Wallet Address</button>
+              <button class="segment-btn" data-toggle="modal" data-target="#identity">
+                Add Wallett Address
+              </button>
+              <div class="modal fade" id="identity" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="identity">Ethereum Wallet Address</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button class="modal-btn" data-dismiss="modal">Close</button>
+                      <button class="modal-btn">Set Address</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row segment">
@@ -51,7 +116,28 @@
             <div class="column col-md-10 segment-content">
               <h4 class="segment-title">Storage Allocation</h4>
               <p class="segment-msg">How much disk space you wnat to allocate to the Storj network</p>
-              <button class="segment-btn">Set Storage Capacity</button>
+              <button class="segment-btn" data-toggle="modal" data-target="#identity">
+                Set Storage Capacity
+              </button>
+              <div class="modal fade" id="identity" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="identity">Storage Allocation</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button class="modal-btn" data-dismiss="modal">Close</button>
+                      <button class="modal-btn">Set Address</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row segment">
@@ -59,7 +145,28 @@
             <div class="column col-md-10 segment-content">
               <h4 class="segment-title">Bandwidth Allocation</h4>
               <p class="segment-msg">How much bandwidth can you allocate to the Storj network.</p>
-              <button class="segment-btn">Set Bandwidth Alloc</button>
+              <button class="segment-btn" data-toggle="modal" data-target="#identity">
+                Set Bandwidth Allocation
+              </button>
+              <div class="modal fade" id="identity" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="identity">Bandwidth Allocation</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button class="modal-btn" data-dismiss="modal">Close</button>
+                      <button class="modal-btn">Set Address</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row segment">
@@ -68,6 +175,28 @@
               <h4 class="segment-title">Storage Directory</h4>
               <p class="segment-msg">The local directory where you want files to be stored on your hard drive for the network</p>
               <button class="segment-btn">Set Storage Directory</button>
+              <button class="segment-btn" data-toggle="modal" data-target="#identity">
+                Set Storage Directory
+              </button>
+              <div class="modal fade" id="identity" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="identity">Storage Directory</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button class="modal-btn" data-dismiss="modal">Close</button>
+                      <button class="modal-btn">Set Directory</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         <div>

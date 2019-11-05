@@ -3,9 +3,14 @@
   background: #133E9C;
 }
 
+.navbar-brand img {
+  height: 35px;
+}
+
 .side-nav.col-2 {
   border: 1px solid #DEDEDE;
   padding-right: 0;
+  height: 100vh;
 }
 
 .side-nav .nav-pills .nav-link {

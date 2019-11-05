@@ -1,6 +1,6 @@
 
 .config-page {
-  margin-top: 40px;
+  margin: 40px 0;
 }
 
 .config-page h2 {
@@ -74,4 +74,30 @@
 
 .segment .modal-footer {
   border-top: none;
+}
+
+.bottom-buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.start-button {
+  background: #245AC3;
+  border-radius: 2px;
+  border: none;
+  margin: 0 auto;
+  margin: 10px;
+  color: #fff;
+  padding: 10px;
+}
+
+
+.stop-button {
+  background: #D94C44;
+  border-radius: 2px;
+  border: none;
+  margin: 10px;
+  color: #fff;
+  padding: 10px;
 }

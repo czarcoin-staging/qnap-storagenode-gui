@@ -3,6 +3,11 @@
   background: #133E9C;
 }
 
+.side-nav.col-2 {
+  border: 1px solid #DEDEDE;
+  padding-right: 0;
+}
+
 .side-nav .nav-pills .nav-link {
   height: 54px;
   line-height: 38px;
